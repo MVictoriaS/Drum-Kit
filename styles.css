@@ -8,12 +8,14 @@ h1 {
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
-
+  text-align: center;
 }
 
 footer {
   color: #DBEDF3;
   font-family: sans-serif;
+  text-align: center;
+  margin-top: 300px;
 }
 
 .w {
@@ -45,7 +47,11 @@ footer {
 }
 
 .set {
-  margin: 10% auto;
+  margin: 10.90% auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-evenly;
 }
 
 .pressed {
